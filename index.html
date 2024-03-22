@@ -20,19 +20,19 @@
             </div>
             <div class="form-group">
                 <label for="cashIn">Cash In:</label>
-                <input type="number" id="cashIn" name="cashIn" required>
+                <input type="text" id="cashIn" name="cashIn" pattern="\d+" title="Please enter whole number" required>
             </div>
             <div class="form-group">
                 <label for="cashOut">Cash Out:</label>
-                <input type="number" id="cashOut" name="cashOut" required>
+                <input type="text" id="cashOut" name="cashOut" pattern="\d+" title="Please enter whole number" required>
             </div>
             <div class="form-group">
                 <label for="tips">Tips:</label>
-                <input type="number" id="tips" name="tips">
+                <input type="text" id="tips" name="tips" pattern="\d+" title="Please enter whole number">
             </div>
             <div class="form-group">
                 <label for="refund">Refund:</label>
-                <input type="number" id="refund" name="refund">
+                <input type="text" id="refund" name="refund" pattern="\d+" title="Please enter whole number">
             </div>
             <button type="submit" id="submit-btn">Submit</button>
         </form>
